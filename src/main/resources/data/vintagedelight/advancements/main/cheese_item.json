@@ -1,0 +1,38 @@
+{
+  "parent": "vintagedelight:main/vinegar_item",
+  "criteria": {
+    "cheese_wheel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:cheese_wheel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "vintagedelight.advancement.get_cheese_item.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "vintagedelight:cheese_wheel"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "vintagedelight.advancement.get_cheese_item"
+    }
+  },
+  "requirements": [
+    [
+      "cheese_wheel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

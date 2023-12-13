@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "vintagedelight:block/cucumber_stage0"
+    },
+    "age=1": {
+      "model": "vintagedelight:block/cucumber_stage1"
+    },
+    "age=2": {
+      "model": "vintagedelight:block/cucumber_stage1"
+    },
+    "age=3": {
+      "model": "vintagedelight:block/cucumber_stage2"
+    },
+    "age=4": {
+      "model": "vintagedelight:block/cucumber_stage2"
+    },
+    "age=5": {
+      "model": "vintagedelight:block/cucumber_stage3"
+    },
+    "age=6": {
+      "model": "vintagedelight:block/cucumber_stage3"
+    },
+    "age=7": {
+      "model": "vintagedelight:block/cucumber_stage4"
+    }
+  }
+}

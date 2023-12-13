@@ -1,0 +1,107 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vintagedelight:item/chef_hat_black",
+		"particle": "vintagedelight:item/chef_hat_black"
+	},
+	"elements": [
+		{
+			"from": [0.85, -2, 0.85],
+			"to": [15.15, 2.125, 15.15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.9, -2, 6.9]},
+			"faces": {
+				"north": {"uv": [9.75, 1.25, 13.25, 2.25], "texture": "#0"},
+				"east": {"uv": [9.75, 2.25, 13.25, 3.25], "texture": "#0"},
+				"south": {"uv": [4.75, 10, 8.25, 11], "texture": "#0"},
+				"west": {"uv": [8.25, 10, 11.75, 11], "texture": "#0"},
+				"up": {"uv": [3.5, 3.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [3.5, 3.5, 0, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1.125, 2.125, 1.125],
+			"to": [14.875, 6.9, 14.875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.9, -2, 6.9]},
+			"faces": {
+				"north": {"uv": [9, 3.75, 12.5, 5], "texture": "#0"},
+				"east": {"uv": [9, 5, 12.5, 6.25], "texture": "#0"},
+				"south": {"uv": [9, 6.25, 12.5, 7.5], "texture": "#0"},
+				"west": {"uv": [9.75, 0, 13.25, 1.25], "texture": "#0"},
+				"up": {"uv": [7, 3.5, 3.5, 0], "texture": "#0"},
+				"down": {"uv": [7, 3.5, 3.5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.065, 6.79, 0.3275],
+			"to": [17.79, 11.3825, 15.6725],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 9.1, 8]},
+			"faces": {
+				"north": {"uv": [0, 10.75, 2.75, 12], "texture": "#0"},
+				"east": {"uv": [4.75, 7.5, 8.5, 8.75], "texture": "#0"},
+				"south": {"uv": [2.75, 11, 5.5, 12.25], "texture": "#0"},
+				"west": {"uv": [8.5, 7.5, 12.25, 8.75], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [2.75, 10.75, 0, 7], "texture": "#0"},
+				"down": {"uv": [9.75, 0, 7, 3.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0.3, 6.625, 0.3],
+			"to": [8, 11.575, 15.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.1, 8]},
+			"faces": {
+				"north": {"uv": [5.5, 11, 7.5, 12.25], "texture": "#0"},
+				"east": {"uv": [4.75, 8.75, 8.5, 10], "texture": "#0"},
+				"south": {"uv": [7.5, 11, 9.5, 12.25], "texture": "#0"},
+				"west": {"uv": [8.5, 8.75, 12.25, 10], "texture": "#0"},
+				"up": {"uv": [4.75, 10.75, 2.75, 7], "texture": "#0"},
+				"down": {"uv": [9, 3.75, 7, 7.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 4.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [0, 4.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, 12, 0]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "ChefHat",
+			"origin": [8, 11.1, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

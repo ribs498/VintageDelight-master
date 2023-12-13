@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "salt": {
+      "conditions": {},
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "vintagedelight:textures/block/salt_bricks.png",
+    "description": {
+      "translate": "vintagedelight.advancement.root.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "vintagedelight:fermenting_jar"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "vintagedelight.advancement.root"
+    }
+  },
+  "requirements": [
+    [
+      "salt"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

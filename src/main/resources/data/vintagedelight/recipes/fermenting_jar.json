@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "i": {
+      "tag": "forge:glass"
+    }
+  },
+  "pattern": [
+    "iSi",
+    "iWi",
+    "iii"
+  ],
+  "result": {
+    "item": "vintagedelight:fermenting_jar"
+  },
+  "show_notification": true
+}

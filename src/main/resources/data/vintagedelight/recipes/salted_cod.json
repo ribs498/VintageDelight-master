@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "vintagedelight:salt_dust"
+    }
+  ],
+  "result": {
+    "item": "vintagedelight:salted_cod",
+    "count": 2
+  }
+}

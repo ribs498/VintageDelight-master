@@ -1,0 +1,7 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#minecraft:is_nether",
+  "denied_biomes": ["minecraft:lush_caves", "minecraft:mushroom_fields"],
+  "features": "vintagedelight:patch_wild_ghost_peppers",
+  "step": "vegetal_decoration"
+}

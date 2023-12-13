@@ -1,0 +1,38 @@
+{
+  "parent": "vintagedelight:main/root",
+  "criteria": {
+    "harvest_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:salt_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "vintagedelight.advancement.harvest_salt.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "vintagedelight:salt_dust"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "vintagedelight.advancement.harvest_salt"
+    }
+  },
+  "requirements": [
+    [
+      "harvest_salt"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

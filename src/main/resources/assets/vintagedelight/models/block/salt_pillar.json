@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "vintagedelight:block/salt_pillar_top",
+    "side": "vintagedelight:block/salt_pillar"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "vintagedelight:block/salt_height2"
+    },
+    "layers=2": {
+      "model": "vintagedelight:block/salt_height4"
+    },
+    "layers=3": {
+      "model": "vintagedelight:block/salt_height6"
+    },
+    "layers=4": {
+      "model": "vintagedelight:block/salt_height8"
+    },
+    "layers=5": {
+      "model": "vintagedelight:block/salt_height10"
+    },
+    "layers=6": {
+      "model": "vintagedelight:block/salt_height12"
+    },
+    "layers=7": {
+      "model": "vintagedelight:block/salt_height14"
+    },
+    "layers=8": {
+      "model": "vintagedelight:block/salt_block"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "vintagedelight:main/place_fermenting_jar",
+  "criteria": {
+    "pickled_beetroot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:pickled_beetroot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pickled_onion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:pickled_onion"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pickled_ghost_pepper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:pickled_pepper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pickle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:pickle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "vintagedelight.advancement.get_pickled_item.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "vintagedelight:pickle"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "vintagedelight.advancement.get_pickled_item"
+    }
+  },
+  "requirements": [
+    [
+        "pickled_beetroot",
+        "pickled_onion",
+        "pickled_ghost_pepper",
+        "pickle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

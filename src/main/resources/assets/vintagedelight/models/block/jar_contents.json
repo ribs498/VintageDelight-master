@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vintagedelight:block/jar_contents",
+		"particle": "vintagedelight:block/jar_contents"
+	},
+	"elements": [
+		{
+			"from": [4.625, 1.75, 4.625],
+			"to": [11.375, 8.5, 11.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.125, 0, -0.375]},
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 3.5], "texture": "#0"},
+				"east": {"uv": [0, 3.5, 3.5, 7], "texture": "#0"},
+				"south": {"uv": [3.5, 0, 7, 3.5], "texture": "#0"},
+				"west": {"uv": [3.5, 3.5, 7, 7], "texture": "#0"},
+				"up": {"uv": [3.5, 10.5, 0, 7], "texture": "#0"},
+				"down": {"uv": [10.5, 0, 7, 3.5], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vintagedelight:block/salt_brick_slab"
+    },
+    "type=double": {
+      "model": "vintagedelight:block/salt_bricks"
+    },
+    "type=top": {
+      "model": "vintagedelight:block/salt_brick_slab_top"
+    }
+  }
+}

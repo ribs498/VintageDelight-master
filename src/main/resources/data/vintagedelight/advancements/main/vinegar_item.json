@@ -1,0 +1,51 @@
+{
+  "parent": "vintagedelight:main/jam_item",
+  "criteria": {
+    "vinegar_mason_jar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:vinegar_mason_jar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "vinegar_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:vinegar_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "vintagedelight.advancement.get_vinegar_item.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "vintagedelight:vinegar_bottle"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "vintagedelight.advancement.get_vinegar_item"
+    }
+  },
+  "requirements": [
+    [
+      "vinegar_mason_jar",
+      "vinegar_bottle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

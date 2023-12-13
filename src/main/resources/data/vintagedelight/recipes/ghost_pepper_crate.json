@@ -1,0 +1,17 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "vintagedelight:ghost_pepper"
+    }
+  },
+  "result": {
+    "item": "vintagedelight:ghost_pepper_crate"
+  }
+}

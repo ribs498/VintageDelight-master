@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "vintagedelight:nut_mash_bottle"
+    },
+    {
+      "tag": "vintagedelight:sweet_jam_bottles"
+    }
+  ],
+  "result": {
+    "item": "vintagedelight:pb_j"
+  }
+}

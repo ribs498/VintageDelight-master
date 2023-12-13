@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "vintagedelight:cheese_slice"
+    },
+    {
+      "item": "vintagedelight:cheese_slice"
+    }
+  ],
+  "result": {
+    "item": "vintagedelight:cheese_pasta"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "vintagedelight:salt"
+    },
+    {
+      "item": "vintagedelight:vinegar_bottle"
+    }
+
+  ],
+  "result": {
+    "item": "vintagedelight:cheese_curds",
+    "count": 4
+  }
+}

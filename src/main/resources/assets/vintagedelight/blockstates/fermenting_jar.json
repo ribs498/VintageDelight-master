@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "waterlogged=false": {
+      "model": "vintagedelight:block/fermenting_jar"
+    },
+    "waterlogged=true": {
+      "model": "vintagedelight:block/fermenting_jar"
+    }
+  }
+}

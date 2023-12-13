@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "vintagedelight:block/cheese_side",
+		"1": "vintagedelight:block/cheese_top",
+		"2": "vintagedelight:block/cheese_bottom",
+		"3": "vintagedelight:block/cheese_inner",
+		"particle": "vintagedelight:block/cheese_side"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 2],
+			"to": [14, 4, 8],
+			"faces": {
+				"north": {"uv": [2, 12, 8, 16], "texture": "#0"},
+				"east": {"uv": [8, 12, 14, 16], "texture": "#0"},
+				"south": {"uv": [8, 12, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 12, 8, 16], "texture": "#3"},
+				"up": {"uv": [8, 2, 14, 8], "texture": "#1"},
+				"down": {"uv": [2, 8, 14, 14], "texture": "#2", "cullface": "down"}
+			}
+		}
+	]
+}

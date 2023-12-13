@@ -1,0 +1,19 @@
+{
+  "type": "vintagedelight:fermenting",
+  "processingTime": 5000,
+  "ingredients": [
+    {"item": "farmersdelight:cabbage_leaf"},
+    {"item": "farmersdelight:cabbage_leaf"},
+    {"item": "farmersdelight:cabbage_leaf"},
+    {"item": "farmersdelight:cabbage_leaf"},
+    {"item": "vintagedelight:salt_dust"},
+    {"item": "vintagedelight:ghost_pepper"}
+  ],
+  "output": {
+    "count": 4,
+    "item": "vintagedelight:kimchi"
+  },
+  "secondaryOutput": {
+    "item": "vintagedelight:pickled_pepper"
+  }
+}

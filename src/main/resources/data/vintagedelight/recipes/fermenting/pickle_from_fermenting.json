@@ -1,0 +1,16 @@
+{
+  "type": "vintagedelight:fermenting",
+  "processingTime": 5000,
+  "ingredients": [
+    {"item": "vintagedelight:cucumber"},
+    {"item": "vintagedelight:cucumber"},
+    {"item": "vintagedelight:cucumber"},
+    {"item": "vintagedelight:cucumber"},
+    {"item": "vintagedelight:cucumber"},
+    {"item": "vintagedelight:salt_dust"}
+  ],
+  "output": {
+    "count": 5,
+    "item": "vintagedelight:pickle"
+  }
+}

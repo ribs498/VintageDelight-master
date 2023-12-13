@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "vintagedelight:chef_hats"
+    },
+    {
+      "tag": "forge:dyes/lime"
+    }
+  ],
+  "result": {
+    "item": "vintagedelight:lime_chefs_hat"
+  }
+}

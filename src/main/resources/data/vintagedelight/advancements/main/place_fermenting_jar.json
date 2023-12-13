@@ -1,0 +1,37 @@
+{
+  "parent": "vintagedelight:main/harvest_salt",
+  "criteria": {
+    "fermenting_jar": {
+      "conditions": {
+        "location": [
+          {
+            "block": "vintagedelight:fermenting_jar",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "vintagedelight.advancement.place_fermenting_jar.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "vintagedelight:fermenting_jar"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "vintagedelight.advancement.place_fermenting_jar"
+    }
+  },
+  "requirements": [
+    [
+      "fermenting_jar"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

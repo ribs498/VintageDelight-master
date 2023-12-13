@@ -1,0 +1,7 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#forge:is_wet",
+  "denied_biomes": ["minecraft:lush_caves", "minecraft:mushroom_fields"],
+  "features": "vintagedelight:patch_wild_cucumbers",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "vintagedelight:block/mixed_salt_bricks"
+  }
+}

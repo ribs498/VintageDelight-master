@@ -1,0 +1,8 @@
+{
+  "items": [
+    "vintagedelight:peanut"
+  ],
+  "damage": 4,
+  "reload_ticks": 6,
+  "velocity_multiplier": 1.5
+}

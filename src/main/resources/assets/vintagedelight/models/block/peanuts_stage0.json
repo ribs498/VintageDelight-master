@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "vintagedelight:block/peanuts_stage0"
+  }
+}

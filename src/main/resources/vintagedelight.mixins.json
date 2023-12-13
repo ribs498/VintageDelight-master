@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.ribs.vintagedelight.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "vintagedelight.refmap.json",
+  "mixins": [
+    "KeepLushGrassGiantTreeMixin",
+    "KeepLushGrassTreeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

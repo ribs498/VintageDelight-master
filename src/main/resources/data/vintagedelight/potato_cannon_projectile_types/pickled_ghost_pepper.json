@@ -1,0 +1,9 @@
+{
+  "items": [
+    "vintagedelight:pickled_ghost_pepper"
+  ],
+  "damage": 9,
+  "reload_ticks": 20,
+  "knockback": 2,
+  "sound_pitch": 0.8
+}

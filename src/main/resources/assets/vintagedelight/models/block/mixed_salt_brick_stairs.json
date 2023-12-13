@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "vintagedelight:block/mixed_salt_bricks",
+    "side": "vintagedelight:block/mixed_salt_bricks",
+    "top": "vintagedelight:block/mixed_salt_bricks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "vintagedelight:salt_dust"
+    }
+  },
+  "result": {
+    "item": "vintagedelight:salt_block"
+  }
+}

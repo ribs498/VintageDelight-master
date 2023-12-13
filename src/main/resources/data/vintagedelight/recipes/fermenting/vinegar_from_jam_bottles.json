@@ -1,0 +1,16 @@
+{
+  "type": "vintagedelight:fermenting",
+  "processingTime": 1200,
+  "ingredients": [
+    {"tag": "vintagedelight:jam_bottles"},
+    {"tag": "forge:mushrooms"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "vintagedelight:vinegar_bottle"
+  },
+  "secondaryOutput": {
+    "count": 1,
+    "item": "vintagedelight:organic_mash"
+  }
+}

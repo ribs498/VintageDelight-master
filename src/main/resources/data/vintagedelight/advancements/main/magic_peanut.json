@@ -1,0 +1,41 @@
+{
+  "parent": "vintagedelight:main/root",
+  "criteria": {
+    "obtain_magic_peanut": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vintagedelight:magic_peanut"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "vintagedelight.advancement.obtain_magic_peanut.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "vintagedelight:magic_peanut"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "vintagedelight.advancement.obtain_magic_peanut"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_magic_peanut"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

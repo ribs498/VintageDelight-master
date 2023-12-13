@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+
+    "A": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "A A",
+    "   "
+  ],
+  "result": {
+    "item": "vintagedelight:blue_chefs_hat"
+  }
+}

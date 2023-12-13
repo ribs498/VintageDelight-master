@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "vintagedelight:block/cucumber_stage0"
+  }
+}
