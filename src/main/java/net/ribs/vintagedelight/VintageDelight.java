@@ -63,6 +63,8 @@ public class VintageDelight {
             ComposterBlock.COMPOSTABLES.put(ModItems.CENTURY_EGG.get(), 0.9F);
             ComposterBlock.COMPOSTABLES.put(ModBlocks.MAGIC_PEANUT.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.OAT.get(), 0.3F);
+
+
         });
     }
 

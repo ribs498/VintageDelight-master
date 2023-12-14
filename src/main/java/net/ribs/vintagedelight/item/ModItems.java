@@ -240,6 +240,7 @@ public class ModItems {
     public static final RegistryObject<Item> YELLOW_SALT_LAMP_ITEM = ITEMS.register("salt_lamp_yellow",
             () -> new BlockItem(ModBlocks.YELLOW_SALT_LAMP.get(), new Item.Properties()));
 
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

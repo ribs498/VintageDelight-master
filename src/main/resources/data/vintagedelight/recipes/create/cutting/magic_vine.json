@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "vintagedelight:magic_vine"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "vintagedelight:stripped_magic_vine"
+    }
+  ]
+}
