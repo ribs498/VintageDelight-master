@@ -1,0 +1,1 @@
+Vintage Delight is a culinary-focused mod that enriches your farming and cooking experience in the game. As an addon to the Farmer's Delight mod, it introduces a variety of new crops, foods, and crafting processes mainly centered around the new block, the Fermenting Jar.
