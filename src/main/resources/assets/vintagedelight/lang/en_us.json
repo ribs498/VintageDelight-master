@@ -63,6 +63,7 @@
     "block.vintagedelight.meat_pizza": "Meat Pizza",
     "block.vintagedelight.vine_net": "Vine Net",
 
+
   //Items
     "item.vintagedelight.salt_dust": "Salt Dust",
     "item.vintagedelight.ghostly_chili": "Ghostly Chili",
@@ -135,6 +136,7 @@
     "item.vintagedelight.red_chefs_hat": "Red Chef Hat",
     "item.vintagedelight.white_chefs_hat": "White Chef Hat",
     "item.vintagedelight.yellow_chefs_hat": "Yellow Chef Hat",
+    "item.vintagedelight.salt_bucket": "Salt Bucket",
 
     "item.vintagedelight.salted_cod": "Salted Cod",
     "item.vintagedelight.salted_salmon": "Salted Salmon",

@@ -10,11 +10,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.ribs.vintagedelight.VintageDelight;
 import net.ribs.vintagedelight.block.ModBlocks;
 import net.ribs.vintagedelight.item.custom.*;
-import vectorwing.farmersdelight.common.FoodValues;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.MilkBottleItem;
-
-import static net.minecraft.world.item.Items.registerBlock;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -34,11 +31,14 @@ public class ModItems {
     public static Item.Properties jarItem(FoodProperties food) {
         return new Item.Properties().food(food).craftRemainder(ModItems.MASON_JAR.get()).stacksTo(16);
     }
+
     public static Item.Properties basicItem() {
         return new Item.Properties();
     }
     public static final RegistryObject<Item> MASON_JAR = ITEMS.register("mason_jar",
             MasonJarItem::new);
+    public static final RegistryObject<Item> SALT_BUCKET = ITEMS.register("salt_bucket",
+            () -> new Item(new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
     public static final RegistryObject<Item> OAT = ITEMS.register("oat",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> OAT_SEEDS = ITEMS.register("oat_seeds",

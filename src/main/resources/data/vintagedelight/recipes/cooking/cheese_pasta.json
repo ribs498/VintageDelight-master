@@ -10,10 +10,10 @@
       "item": "farmersdelight:raw_pasta"
     },
     {
-      "item": "vintagedelight:cheese_slice"
+      "tag": "forge:cheese"
     },
     {
-      "item": "vintagedelight:cheese_slice"
+      "tag": "forge:cheese"
     }
   ],
   "result": {

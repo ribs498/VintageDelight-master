@@ -1,7 +1,9 @@
 {
   "type": "vintagedelight:fermenting",
-  "processingTime": 2400,
+  "processingTime": 3200,
   "ingredients": [
+    {"tag": "vintagedelight:slime_ball_fermenting"},
+    {"tag": "vintagedelight:slime_ball_fermenting"},
     {"tag": "vintagedelight:slime_ball_fermenting"},
     {"tag": "vintagedelight:slime_ball_fermenting"},
     {"tag": "vintagedelight:slime_ball_fermenting"},

@@ -9,7 +9,7 @@
       "item": "farmersdelight:tomato_sauce"
     },
     "A": {
-      "item": "vintagedelight:cheese_slice"
+      "tag": "forge:cheese"
     }
   },
   "pattern": [

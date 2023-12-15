@@ -3,7 +3,9 @@ package net.ribs.vintagedelight.compat;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.constants.VanillaTypes;
+import mezz.jei.api.recipe.RecipeType;
 import mezz.jei.api.registration.IGuiHandlerRegistration;
+import mezz.jei.api.registration.IRecipeCatalystRegistration;
 import mezz.jei.api.registration.IRecipeCategoryRegistration;
 import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.MethodsReturnNonnullByDefault;
@@ -54,5 +56,11 @@ public class JEIVintagePlugin implements IModPlugin {
     public void registerGuiHandlers(IGuiHandlerRegistration registration) {
         registration.addRecipeClickArea(FermentingJarScreen.class, 90, 47, 30, 20,
                 FermentingCategory.FERMENTING_TYPE);
+    }
+    @Override
+    public void registerRecipeCatalysts(IRecipeCatalystRegistration registration) {
+        ItemStack fermentingJarStack = new ItemStack(ModBlocks.FERMENTING_JAR.get());
+        RecipeType<FermentingRecipe> fermentingRecipeType = FermentingCategory.FERMENTING_TYPE;
+        registration.addRecipeCatalyst(fermentingJarStack, fermentingRecipeType);
     }
 }

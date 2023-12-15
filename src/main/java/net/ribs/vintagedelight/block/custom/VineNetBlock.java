@@ -14,6 +14,7 @@ import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 import vectorwing.farmersdelight.common.block.SafetyNetBlock;
 import javax.annotation.Nullable;
 
@@ -26,7 +27,7 @@ public class VineNetBlock extends SafetyNetBlock {
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+    protected void createBlockStateDefinition(StateDefinition.@NotNull Builder<Block, BlockState> builder) {
         super.createBlockStateDefinition(builder);
         builder.add(POSITION);
     }
@@ -59,7 +60,7 @@ public class VineNetBlock extends SafetyNetBlock {
         VoxelShape shape = switch (state.getValue(POSITION)) {
             case TOP -> Block.box(0.0, 13.0, 0.0, 16.0, 15.9, 16.0);
             case MIDDLE -> Block.box(0.0, 7.0, 0.0, 16.0, 9.0, 16.0);
-            case BOTTOM -> Block.box(0.0, 0.1, 0.0, 16.0, 2.0, 16.0);
+            case BOTTOM -> Block.box(0.0, 0.1, 0.0, 16.0, 3.0, 16.0);
         };
         return shape;
     }
