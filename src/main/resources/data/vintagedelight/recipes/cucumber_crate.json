@@ -7,8 +7,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "vintagedelight:cucumber"
+    "#":{
+      "tag": "forge:cucumber"
     }
   },
   "result": {

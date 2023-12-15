@@ -10,9 +10,7 @@
     "#": {
       "item": "minecraft:deepslate_tiles"
     },
-    "M": {
-      "item": "vintagedelight:salt_dust"
-    },
+    "M":  {"tag": "forge:salt"},
     "X": {
       "item": "vintagedelight:salt_block"
     },

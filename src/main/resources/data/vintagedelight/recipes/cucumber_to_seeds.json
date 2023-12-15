@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "vintagedelight:cucumber"
+      "tag": "forge:cucumber"
     }
   ],
   "result": {

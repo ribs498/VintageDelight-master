@@ -18,7 +18,7 @@ public class ModFoods {
             .saturationMod(0.2f).build();
     public static final FoodProperties GHOST_PEPPER = new FoodProperties.Builder().nutrition(3)
             .saturationMod(0.2f).build();
-    public static final FoodProperties PICKLED_PEPPER = (new FoodProperties.Builder())
+    public static final FoodProperties PICKLED_PEPPER = (new FoodProperties.Builder()).fast()
             .nutrition(6).saturationMod(0.3f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties CUCUMBER = new FoodProperties.Builder().nutrition(2)
@@ -34,7 +34,7 @@ public class ModFoods {
     public static final FoodProperties PICKLE_SOUP = (new FoodProperties.Builder())
             .nutrition(13).saturationMod(0.85f)
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), LONG_DURATION, 0), 1.0F).build();
-    public static final FoodProperties PICKLE = (new FoodProperties.Builder())
+    public static final FoodProperties PICKLE = (new FoodProperties.Builder()).fast()
             .nutrition(6).saturationMod(0.3f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties OATMEAL = (new FoodProperties.Builder())
@@ -123,15 +123,15 @@ public class ModFoods {
             .saturationMod(0.7f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F)
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), BRIEF_DURATION, 0), 1.0F).build();
-    public static final FoodProperties KIMCHI = new FoodProperties.Builder().nutrition(4)
+    public static final FoodProperties KIMCHI = new FoodProperties.Builder().nutrition(4).fast()
             .saturationMod(0.3f).build();
-    public static final FoodProperties PICKLED_ONION = (new FoodProperties.Builder())
+    public static final FoodProperties PICKLED_ONION = (new FoodProperties.Builder()).fast()
             .nutrition(6).saturationMod(0.2f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
-    public static final FoodProperties PICKLED_BEETROOT = (new FoodProperties.Builder())
+    public static final FoodProperties PICKLED_BEETROOT = (new FoodProperties.Builder()).fast()
             .nutrition(5).saturationMod(0.4f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
-    public static final FoodProperties PICKLED_EGG= (new FoodProperties.Builder())
+    public static final FoodProperties PICKLED_EGG= (new FoodProperties.Builder()).fast()
             .nutrition(6).saturationMod(0.65f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties CENTURY_EGG= (new FoodProperties.Builder())

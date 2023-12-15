@@ -6,8 +6,8 @@
     {"item": "farmersdelight:cabbage_leaf"},
     {"item": "farmersdelight:cabbage_leaf"},
     {"item": "farmersdelight:cabbage_leaf"},
-    {"item": "vintagedelight:salt_dust"},
-    {"item": "vintagedelight:ghost_pepper"}
+    {"tag": "forge:salt"},
+    {"tag": "forge:chilipepper"}
   ],
   "output": {
     "count": 4,

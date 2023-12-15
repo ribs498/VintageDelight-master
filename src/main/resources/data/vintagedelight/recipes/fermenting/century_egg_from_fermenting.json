@@ -4,7 +4,7 @@
   "ingredients": [
     {"item": "minecraft:sniffer_egg"},
     {"item": "minecraft:coal"},
-    {"item": "vintagedelight:salt_dust"}
+    {"tag": "forge:salt"}
   ],
   "output": {
     "count": 1,

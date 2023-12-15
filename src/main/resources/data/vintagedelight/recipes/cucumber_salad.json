@@ -12,7 +12,7 @@
       "item": "vintagedelight:pickled_onion"
     },
     {
-      "item": "vintagedelight:cucumber"
+      "tag": "forge:cucumber"
     },
     {
       "item": "minecraft:bowl"

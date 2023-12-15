@@ -7,9 +7,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "vintagedelight:salt_dust"
-    }
+    "#":  {"tag": "forge:salt"}
   },
   "result": {
     "item": "vintagedelight:salt_block"

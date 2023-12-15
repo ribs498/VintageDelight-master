@@ -17,7 +17,6 @@ import net.ribs.vintagedelight.block.custom.salt_lamps.*;
 import net.ribs.vintagedelight.item.ModItems;
 import net.ribs.vintagedelight.worldgen.tree.MagicVineGrower;
 import vectorwing.farmersdelight.common.block.PieBlock;
-import vectorwing.farmersdelight.common.block.SafetyNetBlock;
 import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.Supplier;
@@ -76,7 +75,7 @@ public static final RegistryObject<Block> CUCUMBER_CRATE = registerBlock("cucumb
     public static final RegistryObject<Block> CHEESE_MOLD = registerBlock("cheese_mold",
             () -> new CheeseMoldBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).strength(0.5F, 6.0F).sound(SoundType.LANTERN)));
     public static final RegistryObject<Block> FERMENTING_JAR = registerBlock("fermenting_jar",
-            () -> new FermentingJarBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).strength(0.3f).sound(SoundType.GLASS).noOcclusion().lightLevel(state -> 0).requiresCorrectToolForDrops().isRedstoneConductor((state, level, pos) -> false).isSuffocating((state, level, pos) -> false).isViewBlocking((state, level, pos) -> false)));
+            () -> new FermentingJarBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).strength(0.2f).sound(SoundType.GLASS).noOcclusion().lightLevel(state -> 0).isViewBlocking((state, level, pos) -> false)));
     //wild crops
     public static final RegistryObject<Block> WILD_PEANUTS = registerBlock("wild_peanuts",
             () -> new WildCropBlock(MobEffects.DAMAGE_RESISTANCE, 6, Block.Properties.copy(Blocks.TALL_GRASS)));
@@ -146,7 +145,7 @@ public static final RegistryObject<Block> CUCUMBER_CRATE = registerBlock("cucumb
     public static final RegistryObject<Block> GOLDEN_EGG = registerBlock("golden_egg",
             () -> new GoldenEggBlock(BlockBehaviour.Properties.copy(Blocks.DRAGON_EGG).strength(0.3f).sound(SoundType.GLASS)));
     public static final RegistryObject<Block> EVAPORATOR = registerBlock("evaporator",
-            () -> new SaltBlock(BlockBehaviour.Properties.copy(Blocks.STONE), 100.0F));
+            () -> new SaltBlock(BlockBehaviour.Properties.copy(Blocks.STONE), 50.0F));
     public static final RegistryObject<Block> SALT_LAYER = registerBlock("salt",
             () -> new SaltLayerBlock(BlockBehaviour.Properties.copy(Blocks.SAND)));
     public static final RegistryObject<Block> SALT_BLOCK = registerBlock("salt_block",

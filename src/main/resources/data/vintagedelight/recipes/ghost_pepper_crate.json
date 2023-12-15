@@ -7,9 +7,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "vintagedelight:ghost_pepper"
-    }
+    "#": {"tag": "forge:chilipepper"}
   },
   "result": {
     "item": "vintagedelight:ghost_pepper_crate"

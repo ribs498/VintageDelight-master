@@ -7,7 +7,7 @@
     {"tag": "vintagedelight:raw_fish"},
     {"tag": "vintagedelight:raw_fish"},
     {"tag": "vintagedelight:raw_fish"},
-    {"item": "vintagedelight:salt_dust"}
+    {"tag": "forge:salt"}
   ],
   "output": {
     "count": 5,

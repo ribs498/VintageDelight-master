@@ -1,0 +1,9 @@
+{
+		"replace": false,
+		"values": [
+
+"#forge:vegetables/chilipepper",
+"#forge:vegetables/cucumber",
+"#forge:vegetables/peanut"
+	]
+}

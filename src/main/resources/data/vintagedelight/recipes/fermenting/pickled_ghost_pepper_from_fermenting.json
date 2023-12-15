@@ -2,12 +2,12 @@
   "type": "vintagedelight:fermenting",
   "processingTime": 5000,
   "ingredients": [
-    {"item": "vintagedelight:ghost_pepper"},
-    {"item": "vintagedelight:ghost_pepper"},
-    {"item": "vintagedelight:ghost_pepper"},
-    {"item": "vintagedelight:ghost_pepper"},
-    {"item": "vintagedelight:ghost_pepper"},
-    {"item": "vintagedelight:salt_dust"}
+    {"tag": "forge:chilipepper"},
+    {"tag": "forge:chilipepper"},
+    {"tag": "forge:chilipepper"},
+    {"tag": "forge:chilipepper"},
+    {"tag": "forge:chilipepper"},
+    {"tag": "forge:salt"}
   ],
   "output": {
     "count": 5,

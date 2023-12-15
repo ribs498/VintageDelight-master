@@ -7,7 +7,7 @@
     {"item": "farmersdelight:onion"},
     {"item": "farmersdelight:onion"},
     {"item": "farmersdelight:onion"},
-    {"item": "vintagedelight:salt_dust"}
+    {"tag": "forge:salt"}
   ],
   "output": {
     "count": 5,

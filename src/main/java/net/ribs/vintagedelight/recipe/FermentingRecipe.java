@@ -23,6 +23,7 @@ public class FermentingRecipe implements Recipe<SimpleContainer> {
     private final ItemStack secondaryOutput;
     private final int processingTime;
     private final ResourceLocation id;
+    private static final int defaultProcessingTime = 100;
     public FermentingRecipe(NonNullList<Ingredient> inputItems, Ingredient containerIngredient, ItemStack output, ItemStack secondaryOutput, int processingTime, ResourceLocation id) {
         this.inputItems = inputItems;
         this.containerIngredient = containerIngredient;
@@ -131,24 +132,6 @@ public class FermentingRecipe implements Recipe<SimpleContainer> {
         }
 
         @Override
-        public FermentingRecipe fromNetwork(ResourceLocation pRecipeId, FriendlyByteBuf pBuffer) {
-            NonNullList<Ingredient> inputs = NonNullList.withSize(pBuffer.readInt(), Ingredient.EMPTY);
-            for (int i = 0; i < inputs.size(); i++) {
-                inputs.set(i, Ingredient.fromNetwork(pBuffer));
-            }
-            ItemStack output = pBuffer.readItem();
-            ItemStack secondaryOutput = ItemStack.EMPTY;
-            boolean hasSecondaryOutput = pBuffer.readBoolean();
-            if (hasSecondaryOutput) {
-                secondaryOutput = pBuffer.readItem();
-            }
-
-            int processingTime = pBuffer.readInt();
-            Ingredient containerIngredient = Ingredient.fromNetwork(pBuffer);
-            return new FermentingRecipe(inputs, containerIngredient, output, secondaryOutput, processingTime, pRecipeId);
-        }
-
-        @Override
         public void toNetwork(FriendlyByteBuf pBuffer, FermentingRecipe pRecipe) {
             pBuffer.writeInt(pRecipe.inputItems.size());
             for (Ingredient ingredient : pRecipe.getIngredients()) {
@@ -161,8 +144,24 @@ public class FermentingRecipe implements Recipe<SimpleContainer> {
                 pBuffer.writeItemStack(pRecipe.getSecondaryResultItem(), false);
             }
             pBuffer.writeInt(pRecipe.getProcessingTime());
+            pRecipe.containerIngredient.toNetwork(pBuffer);
+        }
+
+        @Override
+        public FermentingRecipe fromNetwork(ResourceLocation pRecipeId, FriendlyByteBuf pBuffer) {
+            NonNullList<Ingredient> inputs = NonNullList.withSize(pBuffer.readInt(), Ingredient.EMPTY);
+            for (int i = 0; i < inputs.size(); i++) {
+                inputs.set(i, Ingredient.fromNetwork(pBuffer));
+            }
+            ItemStack output = pBuffer.readItem();
+            ItemStack secondaryOutput = ItemStack.EMPTY;
+            boolean hasSecondaryOutput = pBuffer.readBoolean();
+            if (hasSecondaryOutput) {
+                secondaryOutput = pBuffer.readItem();
+            }
+            int processingTime = pBuffer.readInt();
+            Ingredient containerIngredient = Ingredient.fromNetwork(pBuffer);
+            return new FermentingRecipe(inputs, containerIngredient, output, secondaryOutput, processingTime, pRecipeId);
         }
     }
-
-    private static final int defaultProcessingTime = 100;
 }

@@ -7,7 +7,7 @@
     {"item": "minecraft:egg"},
     {"item": "minecraft:egg"},
     {"item": "minecraft:egg"},
-    {"item": "vintagedelight:salt_dust"}
+    {"tag": "forge:salt"}
   ],
   "output": {
     "count": 5,

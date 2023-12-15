@@ -71,6 +71,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.YELLOW_SALT_LAMP_ITEM.get());
 
                         pOutput.accept(ModItems.SALT_DUST.get());
+                        pOutput.accept(ModItems.SALT_BUCKET.get());
                         pOutput.accept(ModItems.OAT.get());
                         pOutput.accept(ModItems.RAW_OAT.get());
                         pOutput.accept(ModItems.PEANUT.get());
