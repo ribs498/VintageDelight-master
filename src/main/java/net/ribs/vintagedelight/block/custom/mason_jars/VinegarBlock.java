@@ -27,11 +27,11 @@ public class VinegarBlock extends MasonJarBlock {
             int jars = state.getValue(JARS);
             if (jars > 1) {
                 world.setBlock(pos, state.setValue(JARS, jars - 1), 3);
-                popResource(world, pos, new ItemStack(ModItems.APPLE_SAUCE.get()));
+                popResource(world, pos, new ItemStack(ModItems.VINEGAR.get()));
                 return InteractionResult.SUCCESS;
             } else if (jars == 1) {
                 world.removeBlock(pos, false);
-                popResource(world, pos, new ItemStack(ModItems.APPLE_SAUCE.get()));
+                popResource(world, pos, new ItemStack(ModItems.VINEGAR.get()));
                 return InteractionResult.SUCCESS;
             }
         }

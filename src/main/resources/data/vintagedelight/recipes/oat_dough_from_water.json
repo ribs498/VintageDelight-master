@@ -3,6 +3,9 @@
   "category": "misc",
   "ingredients": [
     {
+      "item": "minecraft:water_bucket"
+    },
+    {
       "item": "vintagedelight:raw_oats"
     },
     {
@@ -13,6 +16,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:bread"
+    "count": 3,
+    "item": "vintagedelight:oat_dough"
   }
 }

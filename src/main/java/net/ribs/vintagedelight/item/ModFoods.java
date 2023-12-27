@@ -23,7 +23,11 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties CUCUMBER = new FoodProperties.Builder().nutrition(2)
             .saturationMod(0.2f).build();
+    public static final FoodProperties CUCUMBER_NOODLES = new FoodProperties.Builder().nutrition(2)
+            .saturationMod(0.2f).build();
     public static final FoodProperties OAT = new FoodProperties.Builder().nutrition(2)
+            .saturationMod(0.2f).build();
+    public static final FoodProperties OAT_DOUGH = new FoodProperties.Builder().nutrition(3)
             .saturationMod(0.2f).build();
     public static final FoodProperties PEANUT = new FoodProperties.Builder().nutrition(2).fast()
             .saturationMod(0.2f).build();
@@ -150,6 +154,9 @@ public class ModFoods {
     public static final FoodProperties DELUXE_BURGER = (new FoodProperties.Builder())
             .nutrition(15).saturationMod(0.95f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
+    public static final FoodProperties STUFFED_BURRITO = (new FoodProperties.Builder())
+            .nutrition(14).saturationMod(0.9f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties CHEESE_PASTA = (new FoodProperties.Builder())
             .nutrition(9).saturationMod(0.75f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();

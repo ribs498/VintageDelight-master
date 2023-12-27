@@ -43,6 +43,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> OAT_SEEDS = ITEMS.register("oat_seeds",
             () -> new ItemNameBlockItem(ModBlocks.OAT_CROP.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> OAT_DOUGH = ITEMS.register("oat_dough",
+            () -> new Item(new Item.Properties().food(ModFoods.OAT_DOUGH)));
     public static final RegistryObject<Item> RAW_OAT = ITEMS.register("raw_oats",
             () -> new Item(new Item.Properties().food(ModFoods.OAT)));
     public static final RegistryObject<Item> GEARO_BERRY_ITEM = ITEMS.register("gearo_berry",
@@ -61,6 +64,8 @@ public class ModItems {
             () -> new ConsumableItem( new Item.Properties().food(ModFoods.PICKLED_PEPPER), true));
     public static final RegistryObject<Item> CUCUMBER = ITEMS.register("cucumber",
             () -> new Item(new Item.Properties().food(ModFoods.CUCUMBER)));
+    public static final RegistryObject<Item> CUCUMBER_NOODLES = ITEMS.register("cucumber_noodles",
+            () -> new Item(new Item.Properties().food(ModFoods.CUCUMBER_NOODLES)));
     public static final RegistryObject<Item> CUCUMBER_SEEDS = ITEMS.register("cucumber_seeds",
             () -> new ItemNameBlockItem(ModBlocks.CUCUMBER_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> PICKLE = ITEMS.register("pickle",
@@ -163,7 +168,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.SALTED_SALMON)));
     public static final RegistryObject<Item> SURSTROMMING = ITEMS.register("surstromming",
             () -> new Item(new Item.Properties().food(ModFoods.SURSTROMMING)));
-
+    public static final RegistryObject<Item> STUFFED_BURRITO = ITEMS.register("stuffed_burrito",
+            () -> new ConsumableItem( new Item.Properties().food(ModFoods.STUFFED_BURRITO), true));
     public static final RegistryObject<Item> CHEESE_PIZZA_SLICE = ITEMS.register("cheese_pizza_slice",
             () -> new ConsumableItem( new Item.Properties().food(ModFoods.CHEESE_PIZZA_SLICE), true));
     public static final RegistryObject<Item> MEAT_PIZZA_SLICE = ITEMS.register("meat_pizza_slice",
@@ -239,6 +245,8 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.WHITE_SALT_LAMP.get(), new Item.Properties()));
     public static final RegistryObject<Item> YELLOW_SALT_LAMP_ITEM = ITEMS.register("salt_lamp_yellow",
             () -> new BlockItem(ModBlocks.YELLOW_SALT_LAMP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> GHOST_CHARCOAL = ITEMS.register("ghost_charcoal",
+            () -> new FuelItem(new Item.Properties(), 1200));
 
 
     public static void register(IEventBus eventBus) {

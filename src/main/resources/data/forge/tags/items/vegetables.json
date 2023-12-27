@@ -1,9 +1,7 @@
 {
-		"replace": false,
-		"values": [
-
-"#forge:vegetables/chilipepper",
-"#forge:vegetables/cucumber",
-"#forge:vegetables/peanut"
-	]
+  "values": [
+    "#forge:vegetables/ghost_pepper",
+    "#forge:vegetables/peanut",
+    "#forge:vegetables/cucumber"
+  ]
 }

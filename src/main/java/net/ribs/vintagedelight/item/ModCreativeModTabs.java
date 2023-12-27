@@ -86,7 +86,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROASTED_PEANUT.get());
                         pOutput.accept(ModItems.HONEY_ROASTED_PEANUT.get());
                         pOutput.accept(ModItems.PICKLED_PEPPER.get());
+                        pOutput.accept(ModItems.GHOST_CHARCOAL.get());
                         pOutput.accept(ModItems.PICKLE.get());
+                        pOutput.accept(ModItems.CUCUMBER_NOODLES.get());
                         pOutput.accept(ModItems.KIMCHI.get());
                         pOutput.accept(ModItems.PICKLED_ONION.get());
                         pOutput.accept(ModItems.PICKLED_BEETROOT.get());
@@ -96,7 +98,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SALTED_SALMON.get());
                         pOutput.accept(ModItems.SURSTROMMING.get());
 
-
+                        pOutput.accept(ModItems.OAT_DOUGH.get());
                         pOutput.accept(ModItems.OATMEAL.get());
                         pOutput.accept(ModItems.OATMEAL_COOKIE.get());
                         pOutput.accept(ModItems.OVERNIGHT_OATS.get());
@@ -143,6 +145,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.PB_J.get());
                         pOutput.accept(ModItems.CHEESE_BURGER.get());
                         pOutput.accept(ModItems.DELUXE_BURGER.get());
+                        pOutput.accept(ModItems.STUFFED_BURRITO.get());
 
 
 

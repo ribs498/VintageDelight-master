@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "farmersdelight:wheat_dough"
+      "tag": "forge:dough"
     },
     "E": {
       "item": "farmersdelight:tomato_sauce"
