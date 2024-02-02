@@ -126,7 +126,7 @@ dependencies {
     compileOnly fg.deobf("squeek.appleskin:appleskin-forge:${appleskin_version}:api")
     runtimeOnly fg.deobf("squeek.appleskin:appleskin-forge:${appleskin_version}")
 
-    implementation fg.deobf("curse.maven:create-328085:4835191")
+    //implementation fg.deobf("curse.maven:create-328085:4835191")
     implementation fg.deobf("curse.maven:the-one-probe-245211:4629624")
     implementation fg.deobf("curse.maven:diet-443570:4813904")
 

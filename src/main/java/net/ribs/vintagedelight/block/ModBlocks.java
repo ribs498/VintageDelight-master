@@ -140,6 +140,7 @@ public static final RegistryObject<Block> CUCUMBER_CRATE = registerBlock("cucumb
             () -> new MagicVineBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_BLOCK).strength(1.5f)));
     public static final RegistryObject<Block> STRIPPED_MAGIC_VINE_BLOCK = registerBlock("stripped_magic_vine_block",
             () -> new MagicVineBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_BAMBOO_BLOCK).strength(1.5f)));
+
     public static final RegistryObject<Block> MAGIC_PEANUT = registerBlock("magic_peanut",
             () -> new SaplingBlock(new MagicVineGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
     public static final RegistryObject<Block> VINE_NET = registerBlock("vine_net",
@@ -154,6 +155,8 @@ public static final RegistryObject<Block> CUCUMBER_CRATE = registerBlock("cucumb
             () -> new SaltBlock(BlockBehaviour.Properties.copy(Blocks.SAND), 10.0F));
     public static final RegistryObject<Block> SMOOTH_SALT_BLOCK = registerBlock("smooth_salt_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS)));
+    public static final RegistryObject<Block> VINE_TILE = registerBlock("vine_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> SALT_PILLAR = registerBlock("salt_pillar",
             () -> new SaltPillarBlock(BlockBehaviour.Properties.copy(Blocks.BRICKS)));
     public static final RegistryObject<Block> SALT_BRICKS = registerBlock("salt_bricks",

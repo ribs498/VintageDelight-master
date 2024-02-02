@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.STRIPPED_MAGIC_VINE.get());
                         pOutput.accept(ModBlocks.MAGIC_VINE_BLOCK.get());
                         pOutput.accept(ModBlocks.STRIPPED_MAGIC_VINE_BLOCK.get());
+                        pOutput.accept(ModBlocks.VINE_TILE.get());
                         pOutput.accept(ModBlocks.VINE_NET.get());
                         pOutput.accept(ModBlocks.GOLDEN_EGG.get());
                         pOutput.accept(ModBlocks.OAT_BAG.get());
