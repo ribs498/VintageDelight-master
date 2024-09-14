@@ -2,7 +2,7 @@
   "type": "vintagedelight:fermenting",
   "processingTime": 3000,
   "ingredients": [
-    {"tag": "vintagedelight:jam_jars"},
+    {"tag": "forge:jam_jars"},
     {"tag": "forge:mushrooms"}
   ],
   "output": {
