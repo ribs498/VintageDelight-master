@@ -64,6 +64,8 @@ public class ModBlocks {
     //crates
     public static final RegistryObject<Block> OAT_BAG = registerBlock("oat_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
+    public static final RegistryObject<Block> GEARO_BERRY_BAG = registerBlock("gearo_berry_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
     public static final RegistryObject<Block> PEANUT_CRATE = registerBlock("peanut_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 public static final RegistryObject<Block> CUCUMBER_CRATE = registerBlock("cucumber_crate",

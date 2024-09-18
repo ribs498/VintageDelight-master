@@ -30,6 +30,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.GOLDEN_EGG.get());
                         pOutput.accept(ModBlocks.OAT_BAG.get());
                         pOutput.accept(ModBlocks.OAT_BALE.get());
+                        pOutput.accept(ModBlocks.GEARO_BERRY_BAG.get());
                         pOutput.accept(ModBlocks.GHOST_PEPPER_CRATE.get());
                         pOutput.accept(ModBlocks.CUCUMBER_CRATE.get());
                         pOutput.accept(ModBlocks.PEANUT_CRATE.get());
